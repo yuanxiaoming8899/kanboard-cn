@@ -1,34 +1,34 @@
-Kanboard
-========
-
-Kanboard is project management software that focuses on the Kanban methodology.
-
-**This application is in maintenance mode**. What does it mean?
-
-Citing [Wikipedia](https://en.wikipedia.org/wiki/Maintenance_mode):
-
-> In the world of software development, maintenance mode refers to a point in a computer program's life when it has reached all of its goals and is generally considered to be "complete" and bug-free. The term can also refer to the point in a software product's evolution when it is no longer competitive with other products or current with regard to the technology environment it operates within.
-
-- The [author](#credits) of this application is not actively developing any new major features (only small fixes)
-- New releases are published regularly depending on the contributions made by the community
-- Pull requests for new features and bug fixes are accepted as long as the [guidelines](.github/pull_request_template.md) are followed
-
-Table of Contents
------------------
-
-- Official website: <https://kanboard.org/>
-- [List of features](https://kanboard.org/#features)
-- [Change Log](https://github.com/kanboard/kanboard/blob/main/ChangeLog)
-- [Forum](https://kanboard.discourse.group/)
-- Official documentation: <https://docs.kanboard.org/>
-    - [Requirements](https://docs.kanboard.org/v1/admin/requirements/)
-    - [Installation instructions](https://docs.kanboard.org/v1/admin/installation/)
-    - [Upgrade to a new version](https://docs.kanboard.org/v1/admin/upgrade/)
-    - [Use Kanboard with Docker](https://docs.kanboard.org/v1/admin/docker/)
-
-Credits
--------
-
-- Main developer: Frédéric Guillot
-- [Contributors](https://github.com/kanboard/kanboard/graphs/contributors)
-- Distributed under [MIT License](https://github.com/kanboard/kanboard/blob/main/LICENSE)
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-kanboard" class="anchor" aria-hidden="true" tabindex="-1" href="#kanboard"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">康博德</font></font></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kanboard 是专注于看板方法的项目管理软件。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此应用程序处于维护模式</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这是什么意思？</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引用维基</font></font><a href="https://en.wikipedia.org/wiki/Maintenance_mode" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">百科</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在软件开发领域，维护模式是指计算机程序生命周期中达到所有目标的时刻，通常被认为是“完整的”且没有错误。</font><font style="vertical-align: inherit;">该术语还可以指软件产品发展过程中不再与其他产品竞争或就其运行的技术环境而言不再具有竞争力的时刻。</font></font></p>
+</blockquote>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"></font><a href="#credits"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该应用程序的作者</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有</font><font style="vertical-align: inherit;">积极开发任何新的主要功能（仅进行了小修复）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据社区的贡献定期发布新版本</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只要遵循</font></font><a href="/kanboard/kanboard/blob/main/.github/pull_request_template.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，就可以接受新功能和错误修复的拉取请求</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-table-of-contents" class="anchor" aria-hidden="true" tabindex="-1" href="#table-of-contents"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方网站： https: </font></font><a href="https://kanboard.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//kanboard.org/</font></font></a></li>
+<li><a href="https://kanboard.org/#features" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能列表</font></font></a></li>
+<li><a href="https://github.com/kanboard/kanboard/blob/main/ChangeLog"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变更日志</font></font></a></li>
+<li><a href="https://kanboard.discourse.group/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论坛</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方文档： https: </font></font><a href="https://docs.kanboard.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//docs.kanboard.org/</font></font></a>
+<ul dir="auto">
+<li><a href="https://docs.kanboard.org/v1/admin/requirements/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要求</font></font></a></li>
+<li><a href="https://docs.kanboard.org/v1/admin/installation/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装说明</font></font></a></li>
+<li><a href="https://docs.kanboard.org/v1/admin/upgrade/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">升级到新版本</font></font></a></li>
+<li><a href="https://docs.kanboard.org/v1/admin/docker/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将 Kanboard 与 Docker 结合使用</font></font></a></li>
+</ul>
+</li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-credits" class="anchor" aria-hidden="true" tabindex="-1" href="#credits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制作人员</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要开发者：Frédéric Guillot</font></font></li>
+<li><a href="https://github.com/kanboard/kanboard/graphs/contributors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献者</font></font></a></li>
+<li><font style="vertical-align: inherit;"><a href="https://github.com/kanboard/kanboard/blob/main/LICENSE"><font style="vertical-align: inherit;">根据MIT 许可</font></a><font style="vertical-align: inherit;">分发</font></font><a href="https://github.com/kanboard/kanboard/blob/main/LICENSE"><font style="vertical-align: inherit;"></font></a></li>
+</ul>
+</article></div>
